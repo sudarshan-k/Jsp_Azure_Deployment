@@ -18,7 +18,7 @@ public class RestController {
 	@ResponseBody
 	@GetMapping("/")
 	public String hello() {
-		return "This is Home ";
+		return "This is home Page";
 	}
 
 	@GetMapping("/saveuser")
